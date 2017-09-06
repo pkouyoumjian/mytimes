@@ -1,0 +1,78 @@
+/* Universal styles */
+body {
+  margin: 0;
+}
+
+
+/* Header */
+.header {
+
+  height: 80px;
+  width: 100%;
+  border: 2px solid Blue;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+}
+.box{
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+}
+
+#nav {
+  padding-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid Green;
+}
+
+#logo {
+  padding-left: 20px;
+}
+#logo span {
+  color: aquamarine;
+  padding-left: 20px;
+}
+
+/* Body of the paper */
+.page {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid red;
+  padding-top: 80px;
+  margin: 150px 20px 0 20px;
+
+}
+
+#large {
+  border: 1px solid black;
+  width: 630px;
+}
+
+#medium {
+  border: 1px solid black;
+  width: 300px;
+}
+
+#small {
+  border: 1px solid black;
+  width: 240px;
+}
+
+.news {
+  border: 1px solid green;
+}

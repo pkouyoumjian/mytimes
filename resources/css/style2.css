@@ -1,0 +1,44 @@
+body {
+  margin: 0 auto;
+}
+
+
+/* Header */
+.header {
+
+  height: 80px;
+  border: 2px solid Blue;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.box{
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+}
+
+#nav {
+  padding-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  display: inline-flex;
+  margin: 10px;
+  border: 1px solid Green;
+}
+
+#logo {
+  padding-left: 20px;
+}
+#logo span {
+  color: aquamarine;
+  padding-left: 20px;
+}
